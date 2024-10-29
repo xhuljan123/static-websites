@@ -1,0 +1,37 @@
+.navbar{
+    background-color : $yc;
+    border-color: transparent;
+    height: auto; 
+    border: none;
+    margin-bottom:0px;
+}
+.navbar-brand>img{
+    width: 175px;
+}
+.count-down{
+    float: left;
+    width: calc(100% - 300px);
+    border-bottom: 2px solid $dgc;
+    line-height: 60px;
+}
+.navbar-brand{
+    line-height: 1em;
+    height: auto;
+    padding: 24px;
+}
+.navbar-default .navbar-nav>li>a{
+    color: $dgc;
+    font-family: $mf;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 19px;
+    padding: 25px 27px;
+    &:hover{
+        color: darken($dgc, 10%);
+    }
+}
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover{
+    background-color: transparent;
+    color: darken($dgc, 10%)
+}

@@ -1,0 +1,94 @@
+.circle-y{
+    background-color: #FBC700;
+    img{
+        position: absolute;
+        top: 15%;
+        left: 10%;
+    }
+}
+.circle-b{
+    background-color: $bc;
+}
+.circle{
+    width: 700px;
+    height: 700px;
+    border-radius: 50%;
+    .btn-warning{
+        font-size: 72px;    
+        font-weight: bold;  
+        line-height: 88px;  
+        text-align: center;
+        border-radius: 50%;
+        width: 88px;
+        height: 88px;
+        padding: 0px;
+    }
+}
+section.intro{
+    h2{
+        color: #000;
+        font-family: $mf;
+        font-size: 48px;
+        font-weight: 300;
+    }
+    .tips{
+        margin-top: 120px;
+        h3{
+            margin-top: 0px;
+            font-size: 20px;
+            line-height: 24px;
+            text-transform: uppercase;
+            font-weight: bold;
+            color: #4A4A4A;
+        }
+        p{
+            font-size: 16px;
+            line-height: 22px;
+        }
+        .row{
+            margin-bottom: 40px;
+        }
+    }
+    .btn-success{
+        font-size: 18px;
+        font-weight: bold;
+        padding: 15px 42px;
+        border-radius: 100px;
+    }
+}
+.post-workout{
+    margin-top: 150px;
+    .col-sm-8{
+        position: relative;
+    }
+        .img-wrapper{
+            position: absolute;
+            top: 195px;
+            left: 0px;
+        }
+        .text-wrapper{
+            position: absolute;
+            right: -160px;
+            bottom: 0px;
+            width: 300px;
+            h4{
+                font-size: 24px;
+                font-weight: bold;
+                color: #333743;
+                border-bottom: 2px solid #979797;
+                padding-bottom: 15px;
+                margin-bottom: 15px;
+            }
+            .dl-horizontal{
+                dt{
+                    text-align: left;
+                    font-size: 16px;
+                    color: #4A4A4A;
+                    font-weight: normal;
+                }
+                dd{
+                    font-weight: bold;
+                }
+            }
+        }
+}

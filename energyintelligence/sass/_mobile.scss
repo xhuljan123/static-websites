@@ -1,0 +1,453 @@
+/*Tablet version*/
+@media only screen and (max-width: 1200px) {
+	/* azienda */
+	.padding-right {
+		padding-right: 15px;
+	}
+	.company .banner .cover {
+		width: 72%;
+	}
+	/* end azienda */
+	#header-nav{
+		padding: 0px;
+	}
+	.menu-bottom > ul > li{margin: 0 15px 0 10px;}
+	// #homeCarusel .carousel-caption .row{height: auto;}
+	// #homeCarusel .carousel-caption .text{order: 2;}
+	#homeCarusel .carousel-caption .chart .canvas-wrapper{width: 100%;}
+	// #homeCarusel .carousel-caption{bottom: 10px;top: 15px;}
+
+	/* home */
+	.home {
+		.icon-home h5 {
+			margin-top: 10px;
+			font-size: 16px;
+		}
+
+		.bg-macbook {
+			position: relative;
+			width: 100%;
+			min-height: auto;
+			margin-top: 30px;
+			padding: 40px 199px 135px 190px;
+			img {
+				width: 100%;
+				max-width: 100%;
+			}
+		}
+		.percent .text-large {
+			font-size: 95px;
+		}
+	}
+
+	/* building */
+	aside .yellow-border .title-icon .right-image, aside .yellow-border .title-icon img {
+		float: none;
+		margin: auto;
+		width: 100%;
+		text-align: center;
+	}
+
+	/* mission */
+	.gallery-bg .background {
+		padding: 29px 120px 100px 117px;
+	}
+}
+
+@media only screen and (max-width: 991px) {
+	.show-on-mobile {
+		display: block !important;
+	}
+	.show-on-mobile-icon {
+		display: inline-block !important;
+	}
+	.right-menu .menu-top {display: none;}
+	.navbar-nav li{
+		display: none;
+		&:last-child{display: block;}
+	}
+	.navbar{height: 85px;}
+	.navbar-brand{height: 70px}
+	.right-menu{height: unset; padding-right: 15px;}
+	#homeCarusel{margin-top: 85px;}
+	.change-nav .menu-bottom{margin-top: 0px;}
+	#homeCarusel .container .text h2{font-size:24px;}
+	.digital-energy .padding-left, .company .padding-left, .box-home .padding-left, .mission .padding-left, .building .padding-left {
+		padding-left: 15px;
+		margin-top: 40px;
+	}
+	.digital-energy .remove-padding, .company .remove-padding, .box-home .remove-padding, .mission .remove-padding, .building .remove-padding {
+		padding-left: 15px;
+		padding-right: 15px;
+	}
+
+	.company .container .row .col-lg-4 p, .digital-energy .container .row .col-lg-4 p, .company .container .row .col-lg-4 h4, .digital-energy .container .row .col-lg-4 h4 {
+		max-width: 100%;
+	}
+
+	/* azienda */
+	.company .banner .banner-description {
+		margin-left: 20px;
+	}
+	.company .banner .banner-description a h1 {
+		font-size: 22px;
+	}
+	.company .banner .banner-description a h2 {
+		font-size: 16px;
+	}
+
+	/* footer */
+	footer ul, .footer-nav-bottom  {
+		margin-top: 15px;
+	}
+	.footer-nav-border {
+		margin-bottom: 30px;
+	}
+	footer {
+		.img-fluid {
+			margin-bottom: 20px;
+		}
+	}
+
+	/* home */
+	.home {
+		.icon-home {
+			width: 80%;
+			padding-top: 80%;
+			margin: auto;
+			margin-bottom: 15px;
+			h5{
+				margin-top: 40px;
+				font-size: 18px;
+			}
+		}
+		.background h4 {
+			margin-top: 30px;
+		}
+		.bg-macbook {
+			padding: 40px 171px 135px 164px;
+		}
+
+		.percent .text-large {
+			font-size: 64px;
+		}
+		.contact-box h5 {
+			font-size: 18px;
+		}
+	}
+
+	.round-checkbox label {
+		padding-top: 6px;
+	}
+
+	/* mission */
+	.gallery-bg .background {
+		padding: 29px 66px 85px 93px;
+	}
+
+	.bg-black-transparent {
+		width: 80% !important; 
+	}
+
+	aside .aside-title {
+		margin-top: 30px;
+	}
+
+	.home .nav-clear {
+		margin: 0;
+	}
+
+	.building, .digital-energy, .mission {
+		.nav-clear {
+			margin-bottom: 85px;
+		}
+	}
+}
+
+@media only screen and (max-width: 768px) {
+	.blog {
+		margin-bottom: 25px;
+		.col-md-4{margin-bottom: 25px;}
+	}
+	.two-box .col{margin-bottom: 15px;min-width: 100%;}
+	.icon-home{
+		width: 200px; 
+		height: 200px;
+		padding-top: 0px; 
+		margin: 15px auto;
+		h5{margin-top: 10px;}
+		svg{width: 50px; height: auto;}
+	}
+	.digital-energy {
+		.padding-left {
+			margin-top: 40px;
+			padding-left: 15px;
+		}
+		.remove-padding {
+			padding-left: 15px;
+			padding-right: 15px;
+		}
+	}
+	.two-box {
+		margin-top: 0 !important;
+		.col-md-6 {
+			margin-bottom: 30px;
+		}
+	}
+
+	/* azienda */ 
+	.company .banner .cover {
+		width: 85%;
+	}
+	.company .banner .banner-description {
+		margin-left: 5px;
+	}
+	.company .banner .banner-description a h1 {
+		font-size: 18px;
+	}
+	.company .banner .banner-description a h2 {
+		font-size: 14px;
+	}
+
+	/* home */ 
+	.blog-post {
+		.readmore {
+			position: relative;
+			margin-bottom: 40px;
+		}
+	}
+	.home .blog .col-md-4 {
+		padding-right: 15px;
+		padding-left: 15px;
+	}
+	.home {
+		.icon-home {
+			width: 85%;
+			padding-top: 85%;
+			margin: auto;
+			margin-bottom: 15px;
+			h5{
+				margin-top: 10px;
+				font-size: 16px;
+			}
+			.icon-svg {
+				top: 15%;
+			}
+		}
+		.gallery-home .row, .gallery-home .col-md-8, .gallery-home .col-md-4, .home .home-slider-bottom .carousel-inner, .home .home-slider-bottom #carousel-Gallery, .home .home-slider-bottom .carousel-item, .home .home-slider-bottom .carousel-item img {
+			height: auto;
+		}
+		.home-slider-bottom .carousel-control-right {
+			top: 20px;
+		}
+		.home-slider-bottom .carousel-control-left {
+			bottom: 20px;
+		}
+		.percent .text-large {
+			font-size: 93px;
+		}
+		.contact-box h5 {
+			font-size: 26px;
+		}
+		.home-slider-bottom p {
+			max-width: 100%;
+		}
+	}
+
+	/* building */
+	.page-title {
+		margin-top: 8px;
+	}
+	.icon-flag {
+		width: 60px;
+		height: 60px;
+	}
+	.page-title h1 {
+		margin-left: 10px;
+		font-size: 32px;
+	}
+
+	.navigation-link {
+		margin-bottom: 30px;
+	}
+
+	/* mission */
+	.gallery-bg .background {
+		padding: 29px 66px 85px 93px;
+	}
+	.bg-black-transparent {
+		width: 100% !important; 
+	}
+
+	/* menu */
+	body.openMenu #canvas-menu {
+		width: 400px;
+	}
+	body.openMenu #header-nav, body.openMenu{
+		left: -400px;
+	}
+
+	.home {
+		.bg-macbook {
+			padding: 32px 122px 116px 119px !important;
+		}
+	}
+}
+@media only screen and (max-width: 576px) {
+	.home {
+		.icon-home {
+			width: 60%;
+			padding-top: 60%;
+			margin: auto;
+			margin-bottom: 15px;
+			h5{
+				margin-top: 30px;
+				font-size: 18px;
+			}
+			.icon-svg {
+				top: 20%;
+			}
+		}
+		.footer-border-bottom .row {
+			display: block;
+		}
+		.bg-macbook {
+			padding: 24px 98px 83px 91px !important;
+		}
+		.percent .text-large {
+			font-size: 100px;
+		}
+	}
+
+	/* building */
+	.building-header, .mission-header {
+		height: 150px;
+		.float-right, .float-left {
+			dsiplay: block;
+			float: none !important;
+		}
+	}
+
+	/* mission */
+	.gallery-bg .background {
+		padding: 22px 79px 69px 77px;
+	}
+
+	/* menu */
+	body.openMenu #canvas-menu {
+		width: 350px;
+	}
+	body.openMenu #header-nav, body.openMenu{
+		left: -350px;
+	}
+}
+
+@media only screen and (max-width: 425px) {
+	/* azienda */ 
+	.company .banner .cover {
+		width: 98%;
+	}
+	.company .banner .banner-description {
+		margin-left: 0;
+	}
+	.company .banner .banner-description a h1 {
+		font-size: 16px;
+	}
+	.company .banner .banner-description a h2 {
+		font-size: 12px;
+	}
+	.text-rights {
+		text-align: center !important;
+		margin-top: 20px;
+	}
+	.box-icon .icon {
+		float: none;
+		margin: auto;
+	}
+	.box-icon .box-description {
+		width: 100%;
+		padding-left: 0;
+	}
+	.box-icon .box-description h5, .box-icon .box-description p {
+		text-align: center;
+	}
+
+	.home {
+		.icon-home {
+			width: 70%;
+			padding-top: 70%;
+			margin: auto;
+			margin-bottom: 15px;
+			h5{
+				margin-top: 10px;
+				font-size: 15px;
+			}
+		}
+		.bg-macbook {
+			padding: 19px 72px 71px 74px !important;
+		}
+	}
+
+	.navigation-link {
+		.float-left, .float-right {
+			float: none !important;
+			margin: auto;
+		}
+		.float-right {
+			margin-top: 15px;
+		}
+	}
+
+	/* mission */
+	.gallery-bg .background {
+		padding: 18px 70px 62px 64px;
+	}
+
+	/* menu */
+	#canvas-menu {
+		padding: 10px;
+	}
+	body.openMenu #canvas-menu {
+		width: 260px;
+	}
+	body.openMenu #header-nav, body.openMenu{
+		left: -260px;
+	}
+	.canvas-menu-body > ul > li > a {
+		font-size: 13px;
+	}
+}
+
+@media only screen and (max-width: 320px) {
+	.home {
+		.icon-home {
+			width: 90%;
+			padding-top: 90%;
+			margin: auto;
+			margin-bottom: 15px;
+		}
+		.bg-macbook {
+			padding: 16px 61px 52px 58px !important;
+		}
+	}
+	/* building */
+	.page-title h1 {
+		margin-left: 8px;
+		font-size: 26px;
+	}
+	/* mission */
+	.gallery-bg .background {
+		padding: 16px 58px 49px 56px;
+	}
+
+	/* menu */
+	body.openMenu #canvas-menu {
+		width: 200px;
+	}
+	body.openMenu #header-nav, body.openMenu{
+		left: -200px;
+	}
+	.canvas-menu-body > ul > li > a {
+		font-size: 12px;
+	}
+}

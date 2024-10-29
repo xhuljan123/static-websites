@@ -1,0 +1,12 @@
+@import "_var";
+body{
+    font-family: $mf;
+    font-size: 16px;
+    color: #000;
+}
+
+
+@import "_overwrites";
+@import "_nav";
+@import "_carusel";
+@import "_content";

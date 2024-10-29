@@ -1,0 +1,343 @@
+body {
+	font-family: "Montserrat", sans-serif;
+	font-size: 16px;
+	color: #000; 
+	width: 100%;
+	margin: 0;
+	padding: 0;
+ }
+ 
+ a {
+	 text-decoration: none !important;
+ }
+
+.btn {
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+  font-size: 20px;
+  border-radius: 30px;
+  text-transform: uppercase;
+  padding: 15px 50px;   }
+
+.btn-primary {
+  background-color: #36A9E0;
+  border-color: transparent; }
+  .btn-primary:hover {
+    background-color: #229fdb;
+    border-color: transparent; }
+
+.btn-default {
+  background-color: #fff;
+  border-color: transparent; }
+  .btn-default:hover {
+    background-color: #f2f2f2;
+    border-color: transparent; }
+
+.btn-success {
+  background-color: #45AF65;
+  border-color: transparent; }
+  .btn-success:hover {
+    background-color: #3e9d5a;
+    border-color: transparent; }
+
+.btn-danger {
+  background-color: #E53329;
+  border-color: transparent; }
+  .btn-danger:hover {
+    background-color: #da251a;
+    border-color: transparent; }
+
+.btn-warning {
+  background-color: #FBC701;
+  border-color: transparent; }
+  .btn-warning:hover {
+    background-color: #e2b301;
+    border-color: transparent; }
+
+.btn-link {
+  background-color: transparent;
+  border-color: 1px solid #fff; }
+  .btn-link:hover {
+    border-color: 1px solid #fff; }
+
+.carousel-control.left {
+  background: none;
+	z-index: 10; }
+
+.carousel-control.right {
+  background: none;
+	z-index: 10; }
+
+.navbar {
+  background-color: #FBC701;
+  border-color: transparent;
+  height: auto;
+  border: none;
+  margin-bottom: 0px; }
+
+.navbar-brand > img {
+  width: 175px; }
+
+.count-down {
+  float: left;
+  width: calc(100% - 300px);
+  border-bottom: 2px solid #236961;
+  line-height: 60px; }
+
+.navbar-brand {
+  line-height: 1em;
+  height: auto;
+  padding: 24px; }
+
+.navbar-default .navbar-nav > li > a {
+  color: #236961;
+  font-family: "Montserrat", sans-serif;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 19px;
+  padding: 25px 27px; }
+  .navbar-default .navbar-nav > li > a:hover {
+    color: #16433e; }
+
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:focus, .navbar-default .navbar-nav > .active > a:hover {
+  background-color: transparent;
+  color: #16433e; }
+
+  
+.banner-background {
+	position: relative;
+	height: 600px;
+	width: 100%; 
+	background-image: url('../images/palestre/background.jpg');
+	background-size: cover;
+	background-position: top center;
+	background-repeat: no-repeat;
+}
+.banner-color {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%; 
+	height: 100%;
+	background-color: rgba(0,0,0,0.2);
+	z-index: 1;
+}
+.banner-layer-white {
+	position: absolute; 
+	bottom: -5px; 
+	left: 0; 
+	width: 100%; 
+	height: 180px; 
+	background-image: url('../images/layer-slider.png');
+	background-size: 100%;
+	background-position: top left;
+	background-repeat: no-repeat;
+	z-index: 2;
+}
+
+section.intro h3, section.associazioni h3 {
+	font-size: 48px;
+	color: #2D2D2D;
+}
+
+section.intro p, section.associazioni p {
+	display: block;
+	margin: auto;
+	max-width: 766px;
+	color: #4A4A4A;
+	font-size: 18px;	
+	line-height: 27px;
+	margin-top: 20px;
+}
+
+section.servizio {
+	margin-top: 60px;
+}
+
+section h4 {
+	font-size: 36px;
+	color: #2D2D2D;
+	font-weight: 300;	
+	line-height: 38px;
+}
+section p {
+	margin-top: 25px;
+	font-size: 18px;
+	color: #4A4A4A;
+	line-height: 26px;
+	max-width: 571px;
+}
+section p>span {
+	font-weight: bold;
+}
+section.servizio .block-text {
+	display: block;
+	margin-bottom: 50px;
+}
+section.servizio .block-text2 {
+	display: block;
+}
+
+section.distributori {
+	margin-top: 30px;
+}
+
+section.distributori .distributori-box-background {
+	position: relative;
+	width: 100%;
+	padding-top: 100%;
+	background-color: #FBC701;
+	border-radius: 100%;
+	overflow: hidden;
+}
+section.distributori .distributori-box-background-inside {
+	position:  absolute;
+	top: 17%;
+	left: 17%;
+	right: 17%;
+	bottom: 17%;
+	overflow: hidden;
+}
+section.distributori .distributori-box-background-inside>img {
+	display: block;
+	margin: auto;
+	height: 100%;
+}
+
+section.distributori .block-text {
+	margin-left: 20px;
+	margin-top: 80px;
+}
+
+section.distributori .section-button {
+	margin-top: 30px;
+	margin-left: 5px;
+}
+
+section.associazioni {
+	margin: 40px 0;
+}
+
+section.banco p{
+	float: right;
+}
+
+section.banco .distributori-box-background-inside {
+	position:  absolute;
+	top: 20%;
+	left: 20%;
+	right: 20%;
+	bottom: 20%;
+	overflow: hidden;
+}
+
+section.banco .block-text {
+	margin-right: 20px;
+	margin-left: 0;
+	text-align: right;
+}
+
+.logo-mobile {
+	display: none;
+	position: absolute;
+	top: 20px;
+	left: 0;
+	right: 0;
+	margin: auto;
+	width: 150px;
+	height: 100px;
+	overflow: hidden;
+	z-index: 55;
+}
+.logo-mobile>img {
+	width: 100%;
+}
+
+@media only screen and (max-width: 780px) {
+	.banner-background {
+		background-size: cover;
+		height: 250px;
+	}
+	.banner-layer-white {
+		height: 70px; 
+	}
+	section.intro h3, section.associazioni h3 {
+		font-size: 30px;
+	}
+	section.intro p, section.associazioni p {
+		font-size: 16px;
+	}
+	section h4 {
+		font-size: 26px;
+		text-align: center;
+		line-height: 28px;
+	}
+	section p {
+		text-align: center;
+		font-size: 16px;
+		margin: auto;
+	}
+	section.distributori .distributori-box-background {
+		width: 80%;
+		padding-top: 80%;
+		margin: auto;
+	}
+	section.distributori .block-text, section.banco .block-text {
+		margin-left: 0;
+		margin-right: 0;
+		text-align: center;
+	}
+	section.distributori .section-button {
+		text-align: center;
+		display: inline-block;
+		margin-left: 0;
+	}
+	section.banco .block-text {
+		margin-right: 0;
+		margin-top: 30px;
+		text-align: center !important;
+	}
+	section.banco p {
+		float: none;
+	}
+	.logo-mobile {
+		display: block;
+	}
+	section.banco {
+		margin-top: 60px;
+	}
+	
+	/* footer */
+	footer {
+		margin-top: 70px !important;
+		background-size: auto 100% !important;
+	}
+	.box-footer-logo {
+		width: 120px !important;
+		height: 120px !important;
+	}
+	footer .list-group {
+		margin-top: 10px !important;
+	}
+	.hide-on-mobile {
+		display: none;
+	}
+	/* end footer */
+}
+
+@media only screen and (max-width: 360px) {
+	.banner-background {
+		height: 250px;
+	}
+	.banner-layer-white {
+		height: 80px; 
+	}
+}
+
+
+
+
+
+
+

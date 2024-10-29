@@ -1,0 +1,91 @@
+#homeCarusel{
+    height: 700px;
+    width: 100%;
+    overflow: hidden;
+    background: #000;
+    margin-top: 130px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    .carousel-inner{
+        position: relative;
+        width: 100%;
+        min-height: 295px;
+        height: 100%;
+    }
+
+    .carousel-item{
+        transition-property: opacity;
+        opacity: 0;
+        display: block;
+        z-index: 1;
+        position: absolute;
+        bottom: 100px;
+    }
+    .carousel-item.active{
+        opacity: 1;
+        z-index: 2;
+    }
+    img{
+        display: none;
+    }
+    .carousel-indicators{
+        bottom: 140px;
+        li{
+            background-color: rgba(0,0,0,.5);
+            height: 5px;
+            margin-right: 7px;
+            margin-left: 7px;
+            cursor: pointer;
+        }
+        .active{
+            background-color: #313131;
+        }
+        margin-right: 50%;
+        justify-content: flex-end;
+    }
+    .container{
+        bottom: 100px;
+        overflow: hidden;
+        height: 275px;
+        padding-top: 0px;
+        padding-bottom: 0px;
+        right: 0px;
+        left: 0px;
+        .row{height: 100%;}
+        .text{
+            background-color: $yc;
+            padding: 35px 30px;
+            color: #030303;
+            text-align: left;
+            height: 100%;
+            font-family: $mf;
+            // height: 100%;
+            h2{
+              font-weight: bold;
+              text-transform: uppercase;
+              margin: 0px;
+              &:after{
+                display: block;
+                content: " ";
+                width: 40px;
+                height: 5px;
+                background-color: #030303;
+                margin: 20px 0;
+              }
+            }
+        }
+        .chart{
+            position: relative;
+            background: rgba(0,0,0,.85);
+            .canvas-wrapper{
+              width: 85%;
+              position: relative;
+              height: 100%;
+            }
+        }
+    }
+}
+#carousel-3-image{
+    height: 100%;
+}

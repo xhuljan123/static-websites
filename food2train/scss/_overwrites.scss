@@ -1,0 +1,64 @@
+.no-gutter > [class*='col-'] {
+    padding-right:0;
+    padding-left:0;
+}
+.btn{
+    font-family: $mf;
+    font-weight: bold;
+    border-radius: 1em;
+    text-transform: uppercase;
+}
+
+.btn-primary{
+    background-color: $bc;
+    border-color: transparent;
+    &:hover{
+        background-color: darken($bc, 5%);
+        border-color: transparent;
+    }
+}
+.btn-default{
+    background-color: #fff;
+    border-color: transparent;
+    &:hover{
+        background-color: darken(#fff, 5%);
+        border-color: transparent;
+    }
+}
+.btn-success{
+    background-color: $gc;
+    border-color: transparent;
+    &:hover{
+        background-color: darken($gc, 5%);
+        border-color: transparent;
+    }
+}
+.btn-danger{
+    background-color: $rc;
+    border-color: transparent;
+    &:hover{
+        background-color: darken($rc, 5%);
+        border-color: transparent;
+    }
+}
+.btn-warning{
+    background-color: $yc;
+    border-color: transparent;
+    &:hover{
+        background-color: darken($yc, 5%);
+        border-color: transparent;
+    }
+}
+.btn-link{
+    background-color: transparent;
+    border-color: 1px solid #fff;
+    &:hover{
+        border-color: 1px solid #fff;
+    }
+}
+.carousel-control.left{
+    background: none;
+}
+.carousel-control.right{
+    background: none;
+}

@@ -1,0 +1,473 @@
+@media (min-width: 1200px) {
+	.news {
+		.container {
+			max-width: 1430px;
+		}
+	}
+	.single-page {
+		.container {
+			max-width: 1360px;
+		}
+	}
+}
+
+/*Tablet version*/
+@media only screen and (max-width: 1200px) {
+	/* navigation */
+	nav.nav-header {
+		padding: 30px 25px;
+	}
+
+	.mini-header {
+		padding: 0 20px;
+	}
+
+	/* news */
+	.news {
+		.container {
+			max-width: 100%;
+		}
+		.news-description h4 {
+			font-size: 36px;
+		}
+		.news-description p {
+			font-size: 20px;
+			margin: 15px 0;
+		}
+	}
+
+	/* single page */
+	.single-page {
+		.container {
+			max-width: 100%;
+		}
+		.description h4 {
+			font-size: 48px;
+		}
+		.description h5 {
+			font-size: 36px;
+		}
+		.description p {
+			font-size: 20px;
+		}
+	}
+}
+
+@media only screen and (max-width: 991px) {
+	/* navigation */
+	nav.nav-header {
+		min-height: 90px;
+		padding: 15px 25px;
+		.btn-mobile {
+			display: block;
+		}
+		.menu-mob.collapse  {
+			display: none;
+		}
+		.menu-mob.collapse.collapse.show {
+			display: block;
+		}
+		.float-left, .float-right {
+			float: none !important;
+		}
+		.float-right {
+			display: block;
+			width: 100%;
+		}
+		ul.menu {
+			position: relative;
+			display: block;
+			width: 100%;
+			padding: 15px 0;
+			li {
+				width: auto;
+				display: block;
+				margin: 0;
+				padding: 10px 10px;
+			}
+			li:last-child {
+				margin: 0;
+			}
+		}
+	}
+
+	/* news */
+	.news {
+		.news-description h4 {
+			font-size: 28px;
+		}
+		.news-description p {
+			font-size: 18px;
+			margin: 10px 0;
+		}
+		.description {
+			font-size: 26px;
+		}
+	}
+	.more {
+		font-size: 24px;
+	}
+
+	/* single page */
+	.single-page {
+		.banner {
+			height: 450px;
+		}
+		.description h4 {
+			font-size: 42px;
+		}
+		.description h5 {
+			font-size: 28px;
+		}
+		.description p, .tag .tag-item .item {
+			font-size: 18px;
+		}
+	}
+	.mini-header {
+		height: 80px;
+		.title-logo {
+			font-size: 40px;
+			.bg-star-red {
+				width: 24px;
+				height: 24px;
+				top: 8%;
+			}
+		}
+	}
+
+	/* entertainment lifestyle*/
+	.entertainment, .lifestyle {
+		.banner {
+			min-height: 350px;
+			.title-logo {
+				margin: 30px 0 20px;
+			}
+			.description {
+				padding-bottom: 50px;
+			}
+		}
+	}
+	/* lifestyle entertainment */
+	.lifestyle, .entertainment {
+		.banner .description {
+			font-size: 26px;
+		}
+	}
+	.box {
+		min-height: 400px;
+	}
+	.box.right-part, .box.left-part {
+		p {
+			margin: 20px 0;
+			font-size: 20px;
+		}
+		h3 {
+			font-size: 34px;
+		}
+	}
+}
+
+@media only screen and (max-width: 768px) {
+	/* homepage */
+	.home {
+		.container p {
+			font-size: 23px;
+		 }
+		.text-right .float-right {
+			float: none;
+			width: 100%;
+		}
+		.bg-star-red {
+			left: 30%;
+		}
+	}
+	.star-button {
+		width: 100%;
+		font-size: 50px;
+	}
+
+	/* contacts page */
+	.contacts {
+		.btn-default {
+			font-size: 19px;
+			padding: 13px;
+		}
+		.contacts-info p {
+			font-size: 26px;
+		}
+	}
+
+	/* lifestyle entertainment */
+	.lifestyle, .entertainment {
+		.banner .description {
+			font-size: 26px;
+		}
+	}
+	.box {
+		min-height: 350px;
+		.btn-default {
+			font-size: 20px;
+		}
+	}
+	.box.right-part, .box.left-part {
+		h3 {
+			font-size: 28px;
+		}
+		p {
+			font-size: 18px;
+		}
+		.transparent-bg {
+			width: 90%;
+		}
+	}
+
+	/* news */
+	.news {
+		.first-col {
+			order: 1;
+		}
+		.second-col {
+			order: 2;
+		}
+		.no-padding-right, .no-padding-left {
+			padding: 0 15px;
+		}
+		.news-star, .select-brand, .description {
+			margin: 30px 0;
+		}
+		.news-description {
+			padding: 30px 0;
+		}
+		.news-description h4, .news-description p, .news-description.text-left,.news-description.text-right {
+			text-align: center !important;
+		}
+		.description {
+			font-size: 22px;
+			margin: 0;
+		}
+	}
+	.more {
+		margin: auto;
+	}
+	.select-brand {
+		span {
+			display: block ;
+		}
+	}
+
+	/* single page */
+	.single-page, {
+		.banner {
+			height: 380px;
+		}
+		.col-md-5.text-right, .description h4, .description h5{
+			text-align: center !important;
+		}
+		.padding-right {
+			padding-right: 15px;
+		}
+		.padding-left {
+			padding-left: 15px;
+		}
+		.description h4 {
+			font-size: 36px;
+		}
+		.description h5 {
+			font-size: 22px;
+		}
+		.description p {
+			font-size: 16px;
+		}
+	}
+	.gallery-slider {
+		margin: 20px 0 60px;
+		.owl-prev, .owl-next {
+			img {
+				width: 15px;
+			}
+		}
+	}
+
+	/* footer */
+	footer.footer {
+		padding: 20px 15px;
+	}
+}
+@media only screen and (max-width: 425px) {
+	/* navigation */
+	nav.nav-header {
+		min-height: 70px;
+		padding: 5px;
+		.btn-mobile {
+			top: 5px;
+			right: 5px;
+		}
+	}
+
+	/* homepage */ 
+	.home {
+		.container p {
+			font-size: 16px;
+			text-align: center;
+		 }
+		.bg-star-white, .bg-star-red {
+			width: 25px;
+			height: 25px;
+		}
+		.bg-star-white {
+			top: 7%;
+		}
+		.bg-star-red {
+			top: 9%;
+			left: 28%;
+		}
+	}
+	.star-button {
+		font-size: 35px;
+	}
+
+	/* contact page */
+	.contacts {
+		.btn-default {
+			padding: 10px;
+			font-size: 15px;
+		}
+		.contacts-info p {
+			font-size: 18px;
+		}
+	}
+
+	/* lifestyle entertainment */
+	.entertainment {
+		.banner {
+			min-height: 280px;
+			.title-logo {
+				margin: 20px 0;
+			}
+		}
+	}
+	.lifestyle, .entertainment {
+		.banner .description {
+			font-size: 18px;
+		}
+	}
+	.box.right-part, .box.left-part {
+		.transparent-bg {
+			padding: 5px 15px;
+			width: 100%;
+			.text-right, .text-left {
+				text-align: center !important;
+			}
+		}
+		p {
+			float: none;
+		}
+	}
+	
+
+
+	/* entertainment */
+	.entertainment {
+		.banner {
+			.title-logo {
+				font-size: 36px;
+			}
+			.bg-star-white {
+				top: 10%;
+				width: 25px;
+				height: 25px;
+			}
+		}
+	}
+
+	/* single page */
+	.single-page, {
+		.banner {
+			height: 250px;
+		}
+		.col-md-5.text-right, .description h4, .description h5{
+			text-align: center !important;
+		}
+		.description h4 {
+			font-size: 32px;
+		}
+		.description h5 {
+			font-size: 18px;
+		}
+		.description p {
+			font-size: 15px;
+		}
+	}
+	.mini-header {
+		height: 60px;
+		.title-logo {
+			font-size: 30px;
+			.bg-star-red {
+				width: 20px;
+				height: 20px;
+				top: 15%;
+			}
+		}
+	}
+	.list-star {
+		list-style-image: url('../images/icon/star-red-list-mobile.png');
+		li {
+			font-size: 18px;
+		}
+	}
+
+	/* footer */
+	footer.footer {
+		p {
+			font-size: 16px;
+		}
+	} 
+	.footer-menu li a {
+		font-size: 16px;
+	}
+}
+
+@media only screen and (max-width: 320px) {
+	.contacts {
+		.btn-default {
+			padding: 8px;
+			font-size: 12px;
+		}
+		.contacts-info p {
+			font-size: 16px;
+		}
+	}
+
+	/* homepage */ 
+	.star-button {
+		font-size: 30px;
+	}
+
+	/* lifestyle */
+	.lifestyle, .entertainment {
+		.right-part p, .left-part p {
+			font-size: 18px;
+		}
+		.right-part h3, .left-part h3 {
+			font-size: 32px;
+		}
+		.banner .description {
+			font-size: 16px;
+		}
+		.banner .title-logo {
+			font-size: 50px;
+		}
+	}
+
+	/* entertainment */
+	.entertainment {
+		.banner {
+			.title-logo {
+				font-size: 26px;
+			}
+			.bg-star-white {
+				top: 4%;
+			}
+		}
+	}
+}

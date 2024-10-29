@@ -1,0 +1,39 @@
+body{
+    font-family: $of;
+}
+
+.btn-readmore{
+    width: 51px;
+    height: 37px;
+    position: relative;
+    background-image: url(../images/readmore-arrow.png);
+    background-repeat: no-repeat;
+    // background-size: contain;
+    background-position: center;
+    &:focus{box-shadow: none;}
+    &:after, &:before {
+        border: 2px solid #000; 
+        bottom: 0;    
+        content: '';
+        position: absolute;
+        top: 0;
+        width: 42%;
+    }
+    &:after {
+        border-left: none;
+        right: 0;
+    }
+    &:before {
+        border-right: none;
+        left: 0;
+    }
+}
+
+@media (min-width: 1200px){
+    .container {
+        max-width: 1200px;
+    }
+}
+    a {
+    text-decoration: none !important;
+}

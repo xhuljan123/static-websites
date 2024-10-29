@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css?family=PT+Serif|Montserrat:300,400,800');
+@font-face {
+    font-family: AllerDisplay;
+    src: url(../font/Aller_Display/AllerDisplay.ttf);
+}
+@font-face {
+    font-family: AllerBold;
+    src: url(../font/Aller_Display/AllerBold.ttf);
+}
+
+body, html {
+	width: 100%;
+	height: 100%;
+	margin: 0;
+	padding: 0;
+	color: #000;
+}
+a {
+	text-decoration: none;
+	color: #fff;
+}
+a:hover {
+	text-decoration: none;
+}
+
+nav.nav-header {
+	width: 100%;
+	min-height: 120px;
+	padding: 30px 70px;
+	background-color: #000;
+	font-family: $ssf; 
+	.btn {
+		margin-top: 10px;
+		border: none;
+	}
+	.btn-mobile {
+		display: none;
+		position: absolute;
+		top: 15px;
+		right: 15px;		
+		cursor: pointer;
+	}
+	.menu-mob.collapse {
+		display: block;
+	}
+	.float-left, .float-right {
+		height: 100%;
+		a img {
+			height: 100%;
+		}
+	}
+	ul.menu {
+		position: relative;
+		display: block;
+		list-style: none;
+		margin: 0;
+		padding: 0;
+		height: 100%;
+		z-index: 999;
+		li {
+			display: inline-block;
+			text-transform: uppercase;
+			height: 50px;
+			font-size: 16px;
+			padding: 18px 0;
+			margin: 0 17px;
+		}
+		li.active {
+			a {
+				border-bottom: 2px solid $rc;
+			}
+		}
+		li {
+			a {
+				padding-bottom: 5px;
+			}
+			a:hover {
+				color: $rc;
+			}
+		}
+		li:last-child {
+			margin: 0 0 0 17px;
+			a {
+				color: $rc;
+			}
+		}
+		.dropdown-item.active, .dropdown-item:active {
+			background-color: #fff;
+		}
+		a.dropdown-item {
+			border-bottom: 0 !important;
+		}
+	}
+}
+.arrow-down-icon {
+	position: relative;
+	display: inline-block;
+	top: 4px;
+	width: 22px;
+	height: 22px;
+	background-image: url(../images/icon/down-arrow.png);
+	background-size: cover;
+	background-repeat: no-repeat;
+	padding: 7px;
+	margin-left: 10px;
+}
+.dropdown-menu {
+	margin-top: 20px;
+	border-radius: 0;
+}
+.mobile-line {
+	display: block;
+	border-top: 2px solid #fff !important;
+	width: 40px;
+	height: 2px;
+	margin-bottom: 10px;
+}
