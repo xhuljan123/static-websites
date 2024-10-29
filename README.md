@@ -1,3 +1,3 @@
 # Personal projects done for clients
 
-Read the license.md before use
+Read the license before use
