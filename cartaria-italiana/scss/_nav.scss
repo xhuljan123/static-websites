@@ -1,0 +1,143 @@
+body {
+	font-family: $rf;
+	color: #fff;
+}
+.navbar-light .navbar-nav .nav-link {
+	color: #fff;
+}
+.navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover {
+	color: #fff;
+}
+.header {
+	width: 100%;
+	background-color: #1a1a1f;
+	padding: 0 10px;
+	.navbar-toggler {
+		position: absolute;
+		top: 60px;
+		right: 20px;
+		width: 20px;
+		height: 20px;
+		padding: 0;
+		border: none;
+		cursor: pointer;
+		.navbar-burger-menu {
+			position: relative;
+			display: block;
+			width: 20px;
+			height: 20px;
+			background-image: url(../images/icon/menu.png);
+			background-size: cover;
+			background-repeat: no-repeat;
+		}
+	}
+	.navbar-toggler:focus {
+		outline: none;
+	}
+	.navbar-brand {
+		padding: 0;
+		img {
+			max-height: 120px;
+		}
+	}
+	.bg-small-header {
+		position: absolute;
+		bottom: 0;
+		left: 0;
+		right: 0;
+		height: 14px;
+		background-color: #101012;
+	}
+	.collapse.navbar-collapse {
+		position: absolute;
+		top: 82px;
+		right: 0;
+	}
+	.nav-item {
+		margin-left: 10px;
+		padding-bottom: 20px;
+	}
+	.nav-item.active {
+		background: #353542;
+	}
+	.nav-item:hover {
+		background: #353542;
+		.nav-link {
+			color: #fff;
+		}
+	}
+	.nav-link {
+		padding: 3px 15px 0;
+		text-transform: uppercase;
+		font-size: 14px;
+	}
+	.nav-item.active .nav-link {
+		color: #fff;
+	}
+	.mini-header {
+		position: absolute;
+		top: 14px;
+		right: 14px;
+		ul {
+			display: block;
+			list-style: none;
+			margin: 0;
+		}
+		li {
+			display: inline-block;
+			font-size: 13px;
+			margin-left: 27px;
+			img {
+				margin-left: 13px;
+			}
+		}
+		.search {
+			position: relative;
+			min-width: 80px;
+			height: 20px;
+			top: 3px;
+			label {
+				position: absolute;
+				top: 3px;
+				right: 0;
+			}
+			input {
+				position: absolute;
+				top: 0; 
+				right: 22px;
+				width: 65px;
+				background-color: #1a1a1f;
+				border: none;
+				color: #fff;
+				padding: 5px 8px;
+				transition: width 1s ease;
+				font-family: $rf;
+				outline: none;
+			}
+			input::-webkit-input-placeholder { /* WebKit, Blink, Edge */
+			    color:    #fff;
+			}
+			input:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+			   color:    #fff;
+			   opacity:  1;
+			}
+			input::-moz-placeholder { /* Mozilla Firefox 19+ */
+			   color:    #fff;
+			   opacity:  1;
+			}
+			input:-ms-input-placeholder { /* Internet Explorer 10-11 */
+			   color:    #fff;
+			}
+			input::-ms-input-placeholder { /* Microsoft Edge */
+			   color:    #fff;
+			}
+			input:focus {
+				width: 200px;
+				border-bottom: 1px solid #ba1b26;
+			}
+		}
+	}
+}
+.container {
+	width: 100%;
+}

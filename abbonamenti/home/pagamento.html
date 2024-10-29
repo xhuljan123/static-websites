@@ -1,0 +1,911 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pagamento - Abbonamenti</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700" rel="stylesheet">
+</head>
+
+<body class="confirm-order payment">
+    <!-- navbar -->
+    <nav class="mini-header bg-beige">
+        <div class="container">
+            <div class="text-right">
+                <ul class="list-inline">
+                    <li class="list-inline-item first-item">
+                        <a href="#">
+                            <span class="hide-578">Registrati</span> <div class="nav-icon user-icon"></div>
+                        </a>
+                    </li>
+                    <li class="list-inline-item second-item hide-578">
+                        <a href="homepage-logged-in.html">
+                            <b class="hide-578">Accedi</b>
+                            <div class="nav-icon user-icon"></div>
+                        </a>
+                    </li>
+                    <li class="list-inline-item cart-item">
+                        <div class="open-dropdown">
+                            <div>
+                                <span class="hide-578">Carrello</span>
+                                <div class="nav-icon cart-icon">
+                                    <div class="cart-number">12</div>
+                                </div>
+                            </div>
+                            <div class="dropdown-menu dropdown-menu-right dropdown-effect">
+                                <div class="dropdowns d-cart">
+                                    <ul>
+                                        <li>
+                                            <div class="row">
+                                                <div class="col-5">
+                                                    <div class="offer">
+                                                        <div class="combo">
+                                                            <ul class="list-cover">
+                                                                <li class="background"></li>
+                                                                <li class="first-cover"><img src="img/item-cover.jpg" alt="item image cover" itemprop="image"></li>
+                                                                <li class="second-cover"><img src="img/item-cover.jpg" alt="item image second image" itemprop="image"></li>
+                                                            </ul>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-7">
+                                                    <h6>Corriere della Sera con titolo più lungo su 3 righe</h6>
+                                                    <div class="w-100 margin-bottom clearfix">
+                                                        <div class="float-left">Q.tà:</div>
+                                                        <div class="float-right"><span>1</span></div>
+                                                    </div>
+                                                    <div class="w-100 clearfix">
+                                                        <div class="float-left">Prezzo:</div>
+                                                        <div class="float-right"><span itemprop="priceCurrency" content="EUR">€</span><span itemprop="price" content="13.50"> 13.50</span></div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="border-beige small"></div>
+                                        </li>
+                                        <li>
+                                            <div class="row">
+                                                <div class="col-5">
+                                                    <div class="offer">
+                                                        <div class="digital">
+                                                            <ul class="list-cover">
+                                                                <li class="background"></li>
+                                                                <li class="first-cover"><img src="img/item-cover.jpg" alt="item image second image" itemprop="image"></li>
+                                                            </ul>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-7">
+                                                    <h6>Corriere della Sera con titolo più lungo su 3 righe</h6>
+                                                    <div class="w-100 margin-bottom clearfix">
+                                                        <div class="float-left">Q.tà:</div>
+                                                        <div class="float-right"><span>1</span></div>
+                                                    </div>
+                                                    <div class="w-100 clearfix">
+                                                        <div class="float-left">Prezzo:</div>
+                                                        <div class="float-right"><span itemprop="priceCurrency" content="EUR">€</span><span itemprop="price" content="13.50"> 13.50</span></div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="border-beige small"></div>
+                                        </li>
+                                        <li>
+                                            <div class="row">
+                                                <div class="col-5">
+                                                    <div class="offer">
+                                                        <div class="prod">
+                                                            <ul class="list-cover">
+                                                                <li class="first-cover"><img src="img/item-cover.jpg" alt="item image cover" itemprop="image" /></li>
+                                                            </ul>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-7">
+                                                    <h6>Corriere della Sera con titolo più lungo su 3 righe</h6>
+                                                    <div class="w-100 margin-bottom clearfix">
+                                                        <div class="float-left">Q.tà:</div>
+                                                        <div class="float-right"><span>1</span></div>
+                                                    </div>
+                                                    <div class="w-100 clearfix">
+                                                        <div class="float-left">Prezzo:</div>
+                                                        <div class="float-right"><span itemprop="priceCurrency" content="EUR">€</span><span itemprop="price" content="13.50"> 13.50</span></div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="border-beige small"></div>
+                                        </li>
+                                        <li>
+                                            <div class="row">
+                                                <div class="col-5">
+                                                    <div class="offer">
+                                                        <div class="carta">
+                                                            <ul class="list-cover">
+                                                                <li class="background"></li>
+                                                                <li class="first-cover"><img src="img/item-cover.jpg" alt="item image second image" itemprop="image"></li>
+                                                            </ul>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-7">
+                                                    <h6>Corriere della Sera con titolo più lungo su 3 righe</h6>
+                                                    <div class="w-100 margin-bottom clearfix">
+                                                        <div class="float-left">Q.tà:</div>
+                                                        <div class="float-right"><span>1</span></div>
+                                                    </div>
+                                                    <div class="w-100 clearfix">
+                                                        <div class="float-left">Prezzo:</div>
+                                                        <div class="float-right"><span itemprop="priceCurrency" content="EUR">€</span><span itemprop="price" content="13.50"> 13.50</span></div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="border-beige small"></div>
+                                        </li>
+                                        <li>
+                                            <div class="row">
+                                                <div class="col-5">
+                                                    <div class="offer">
+                                                        <div class="all">
+                                                            <ul class="list-cover">
+                                                                <li class="background"></li>
+                                                                <li class="first-cover"><img src="img/item-cover.jpg" alt="item image cover" itemprop="image"></li>
+                                                                <li class="second-cover"><img src="img/item-cover.jpg" alt="item image second image" itemprop="image"></li>
+                                                            </ul>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-7">
+                                                    <h6>Corriere della Sera con titolo più lungo su 3 righe</h6>
+                                                    <div class="w-100 margin-bottom clearfix">
+                                                        <div class="float-left">Q.tà:</div>
+                                                        <div class="float-right"><span>1</span></div>
+                                                    </div>
+                                                    <div class="w-100 clearfix">
+                                                        <div class="float-left">Prezzo:</div>
+                                                        <div class="float-right"><span itemprop="priceCurrency" content="EUR">€</span><span itemprop="price" content="13.50"> 13.50</span></div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="price-total w-100 clearfix">
+                                                <div class="float-left">Totale:</div>
+                                                <div class="float-right"><span itemprop="priceCurrency" content="EUR">€</span><span itemprop="price" content="27.00"> 27.00</span></div>
+                                            </div>
+                                            <div class="border-beige small"></div>
+                                        </li>
+                                        <li>
+                                            <div class="text-right">
+                                                <a href="#" itemprop="url">» VAI AL CARRELLO</a>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="close-dropdown-mobile"></div>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <nav class="navbar bg-beige">
+        <div class="container">
+            <div class="clearfix">
+                <div class="logo-left" itemscope itemtype="http://schema.org/Organization">
+                    <a href="http://draft2017.com/abbonamenti/stili-libera/" itemprop="url">
+                        <img class="img-fluid" src="img/logo.png" alt="Logo" itemprop="logo" />
+                    </a>
+                </div>
+                <div class="search-right">
+                    <form action="#" method="POST">
+                        <div class="relative">
+                            <button type="submit" class="btn-search hide-578"></button>
+                            <button type="submit" class="btn btn-primary btn-mobile">Cerca</button>
+                            <input type="text" name="search" class="search-nav" placeholder="Cerca nel sito" />
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="mega-menu">
+            <div class="container">
+                <div class="burger-menu collapsed" role="button" data-toggle="collapse" data-target="#collapse-menu" aria-expanded="false" aria-controls="collapse-menu">
+                    Menu
+                    <div class="d-block">
+                    </div>
+                </div>
+                <div class="search-mobile"></div>
+                <div class="collapse" id="collapse-menu">
+                    <ul class="list-inline primary-menu">
+                        <li class="list-inline-item dropdown">
+                            <div class="btn-dropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                <span class="arrow-menu"></span>RIVISTE
+                            </div>
+                            <div class="dropdown-menu">
+                                <div class="container">
+                                    <div class="row">
+                                        <div class="col-lg-9">
+                                            <div class="row">
+                                                <div class="col-md-12">
+                                                    <h5 class="hide-578">Abbonamenti a riviste cartacee</h5>
+                                                </div>
+                                                <div class="col-md-12">
+                                                    <ul class="order-item clearfix">
+                                                        <li><a href="#">Agricoltura</a></li>
+                                                        <li><a href="#">Arredamento</a></li>
+                                                        <li><a href="#">Animali</a></li>
+                                                        <li><a href="#">Attualità</a></li>
+                                                        <li><a href="#">Architettura e Design</a></li>
+                                                        <li><a href="#">Benessere e Salute</a></li>
+                                                        <li><a href="#">Bambini e Ragazzi</a></li>
+                                                        <li><a href="#">Cucina</a></li>
+                                                        <li><a href="#">Cultura</a></li>
+                                                        <li><a href="#">Economia</a></li>
+                                                        <li><a href="#">Familiari</a></li>
+                                                        <li><a href="#">Femminili</a></li>
+                                                        <li><a href="#">Fumetti</a></li>
+                                                        <li><a href="#">Hobby e Tempo Libero</a></li>
+                                                        <li><a href="#">Informatica</a></li>
+                                                        <li><a href="#">Lifestyle</a></li>
+                                                        <li><a href="#">Maschili</a></li>
+                                                        <li><a href="#">Moda</a></li>
+                                                        <li><a href="#">Motori</a></li>
+                                                        <li><a href="#">Nautica</a></li>
+                                                        <li><a href="#">Orto e Giardino</a></li>
+                                                        <li><a href="#">Riviste Professionali</a></li>
+                                                        <li><a href="#">Romanzi</a></li>
+                                                        <li><a href="#">Scienza e Tecnologia</a></li>
+                                                        <li><a href="#">Spettacoli</a></li>
+                                                        <li><a href="#">Storia</a></li>
+                                                        <li><a href="#">Viaggi e Geografia</a></li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-3 padding-left">
+                                            <div class="w-100 bg-white">
+                                                <h6>In evidenza:</h6>
+                                                <ul>
+                                                    <li><a href="#">Abbonamenti a meno di 20 €</a></li>
+                                                    <li><a href="#">Abbonamenti a meno di 50 €</a></li>
+                                                    <li><a href="#">Libri</a></li>
+                                                    <li><a href="#">Offerte in abbinata</a></li>
+                                                    <li><a href="#">Speciale autunno 2017</a></li>
+                                                    <li><a href="#">Speciale design</a></li>
+                                                    <li><a href="#">Top 20 riviste più acquistate</a></li>
+                                                    <li><a href="#">Top 50 riviste più acquistate</a></li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-12 hide-578">
+                                            <div class="border-beige small"></div>
+                                            <div class="w-100 clearfix">
+                                                <div class="float-left">
+                                                    <a href="#"><img src="img/icons/arrow-link.png" alt="">Vedi tutte le riviste</a>
+                                                </div>
+                                                <div class="float-right">
+                                                    <div class="close-dropdown"></div> Chiudi
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="list-inline-item dropdown">
+                            <div class="btn-dropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                <span class="arrow-menu"></span>RIVISTE DIGITALI
+                            </div>
+                            <div class="dropdown-menu">
+                                <div class="container">
+                                    <div class="row">
+                                        <div class="col-lg-9">
+                                            <div class="row">
+                                                <div class="col-md-12">
+                                                    <h5 class="hide-578">Abbonamenti a riviste cartacee</h5>
+                                                </div>
+                                                <div class="col-md-12">
+                                                    <ul class="order-item clearfix">
+                                                        <li><a href="#">Agricoltura</a></li>
+                                                        <li><a href="#">Arredamento</a></li>
+                                                        <li><a href="#">Animali</a></li>
+                                                        <li><a href="#">Attualità</a></li>
+                                                        <li><a href="#">Architettura e Design</a></li>
+                                                        <li><a href="#">Benessere e Salute</a></li>
+                                                        <li><a href="#">Bambini e Ragazzi</a></li>
+                                                        <li><a href="#">Cucina</a></li>
+                                                        <li><a href="#">Cultura</a></li>
+                                                        <li><a href="#">Economia</a></li>
+                                                        <li><a href="#">Familiari</a></li>
+                                                        <li><a href="#">Femminili</a></li>
+                                                        <li><a href="#">Fumetti</a></li>
+                                                        <li><a href="#">Hobby e Tempo Libero</a></li>
+                                                        <li><a href="#">Informatica</a></li>
+                                                        <li><a href="#">Lifestyle</a></li>
+                                                        <li><a href="#">Maschili</a></li>
+                                                        <li><a href="#">Moda</a></li>
+                                                        <li><a href="#">Motori</a></li>
+                                                        <li><a href="#">Nautica</a></li>
+                                                        <li><a href="#">Orto e Giardino</a></li>
+                                                        <li><a href="#">Riviste Professionali</a></li>
+                                                        <li><a href="#">Romanzi</a></li>
+                                                        <li><a href="#">Scienza e Tecnologia</a></li>
+                                                        <li><a href="#">Spettacoli</a></li>
+                                                        <li><a href="#">Storia</a></li>
+                                                        <li><a href="#">Viaggi e Geografia</a></li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-3 padding-left">
+                                            <div class="w-100 bg-white">
+                                                <h6>In evidenza:</h6>
+                                                <ul>
+                                                    <li><a href="#">Abbonamenti a meno di 20 €</a></li>
+                                                    <li><a href="#">Abbonamenti a meno di 50 €</a></li>
+                                                    <li><a href="#">Libri</a></li>
+                                                    <li><a href="#">Offerte in abbinata</a></li>
+                                                    <li><a href="#">Speciale autunno 2017</a></li>
+                                                    <li><a href="#">Speciale design</a></li>
+                                                    <li><a href="#">Top 20 riviste più acquistate</a></li>
+                                                    <li><a href="#">Top 50 riviste più acquistate</a></li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-12 hide-578">
+                                            <div class="border-beige small"></div>
+                                            <div class="w-100 clearfix">
+                                                <div class="float-left">
+                                                    <a href="#"><img src="img/icons/arrow-link.png" alt="">Vedi tutte le riviste</a>
+                                                </div>
+                                                <div class="float-right">
+                                                    <div class="close-dropdown"></div> Chiudi
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="list-inline-item dropdown">
+                            <div class="btn-dropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                <span class="arrow-menu"></span>PRODOTTI
+                            </div>
+                            <div class="dropdown-menu">
+                                <div class="container">
+                                    <div class="row">
+                                        <div class="col-lg-9">
+                                            <div class="row">
+                                                <div class="col-md-12">
+                                                    <h5 class="hide-578">Abbonamenti a riviste cartacee</h5>
+                                                </div>
+                                                <div class="col-md-12">
+                                                    <ul class="order-item clearfix">
+                                                        <li><a href="#">Agricoltura</a></li>
+                                                        <li><a href="#">Arredamento</a></li>
+                                                        <li><a href="#">Animali</a></li>
+                                                        <li><a href="#">Attualità</a></li>
+                                                        <li><a href="#">Architettura e Design</a></li>
+                                                        <li><a href="#">Benessere e Salute</a></li>
+                                                        <li><a href="#">Bambini e Ragazzi</a></li>
+                                                        <li><a href="#">Cucina</a></li>
+                                                        <li><a href="#">Cultura</a></li>
+                                                        <li><a href="#">Economia</a></li>
+                                                        <li><a href="#">Familiari</a></li>
+                                                        <li><a href="#">Femminili</a></li>
+                                                        <li><a href="#">Fumetti</a></li>
+                                                        <li><a href="#">Hobby e Tempo Libero</a></li>
+                                                        <li><a href="#">Informatica</a></li>
+                                                        <li><a href="#">Lifestyle</a></li>
+                                                        <li><a href="#">Maschili</a></li>
+                                                        <li><a href="#">Moda</a></li>
+                                                        <li><a href="#">Motori</a></li>
+                                                        <li><a href="#">Nautica</a></li>
+                                                        <li><a href="#">Orto e Giardino</a></li>
+                                                        <li><a href="#">Riviste Professionali</a></li>
+                                                        <li><a href="#">Romanzi</a></li>
+                                                        <li><a href="#">Scienza e Tecnologia</a></li>
+                                                        <li><a href="#">Spettacoli</a></li>
+                                                        <li><a href="#">Storia</a></li>
+                                                        <li><a href="#">Viaggi e Geografia</a></li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-3 padding-left">
+                                            <div class="w-100 bg-white">
+                                                <h6>In evidenza:</h6>
+                                                <ul>
+                                                    <li><a href="#">Abbonamenti a meno di 20 €</a></li>
+                                                    <li><a href="#">Abbonamenti a meno di 50 €</a></li>
+                                                    <li><a href="#">Libri</a></li>
+                                                    <li><a href="#">Offerte in abbinata</a></li>
+                                                    <li><a href="#">Speciale autunno 2017</a></li>
+                                                    <li><a href="#">Speciale design</a></li>
+                                                    <li><a href="#">Top 20 riviste più acquistate</a></li>
+                                                    <li><a href="#">Top 50 riviste più acquistate</a></li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-12 hide-578">
+                                            <div class="border-beige small"></div>
+                                            <div class="w-100 clearfix">
+                                                <div class="float-left">
+                                                    <a href="#"><img src="img/icons/arrow-link.png" alt="">Vedi tutte le riviste</a>
+                                                </div>
+                                                <div class="float-right">
+                                                    <div class="close-dropdown"></div> Chiudi
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="list-inline-item dropdown">
+                            <div class="btn-dropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                <span class="arrow-menu"></span>COLLEZIONI
+                            </div>
+                            <div class="dropdown-menu">
+                                <div class="container">
+                                    <div class="row">
+                                        <div class="col-lg-9">
+                                            <div class="row">
+                                                <div class="col-md-12">
+                                                    <h5 class="hide-578">Abbonamenti a riviste cartacee</h5>
+                                                </div>
+                                                <div class="col-md-12">
+                                                    <ul class="order-item clearfix">
+                                                        <li><a href="#">Agricoltura</a></li>
+                                                        <li><a href="#">Arredamento</a></li>
+                                                        <li><a href="#">Animali</a></li>
+                                                        <li><a href="#">Attualità</a></li>
+                                                        <li><a href="#">Architettura e Design</a></li>
+                                                        <li><a href="#">Benessere e Salute</a></li>
+                                                        <li><a href="#">Bambini e Ragazzi</a></li>
+                                                        <li><a href="#">Cucina</a></li>
+                                                        <li><a href="#">Cultura</a></li>
+                                                        <li><a href="#">Economia</a></li>
+                                                        <li><a href="#">Familiari</a></li>
+                                                        <li><a href="#">Femminili</a></li>
+                                                        <li><a href="#">Fumetti</a></li>
+                                                        <li><a href="#">Hobby e Tempo Libero</a></li>
+                                                        <li><a href="#">Informatica</a></li>
+                                                        <li><a href="#">Lifestyle</a></li>
+                                                        <li><a href="#">Maschili</a></li>
+                                                        <li><a href="#">Moda</a></li>
+                                                        <li><a href="#">Motori</a></li>
+                                                        <li><a href="#">Nautica</a></li>
+                                                        <li><a href="#">Orto e Giardino</a></li>
+                                                        <li><a href="#">Riviste Professionali</a></li>
+                                                        <li><a href="#">Romanzi</a></li>
+                                                        <li><a href="#">Scienza e Tecnologia</a></li>
+                                                        <li><a href="#">Spettacoli</a></li>
+                                                        <li><a href="#">Storia</a></li>
+                                                        <li><a href="#">Viaggi e Geografia</a></li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-3 padding-left">
+                                            <div class="w-100 bg-white">
+                                                <h6>In evidenza:</h6>
+                                                <ul>
+                                                    <li><a href="#">Abbonamenti a meno di 20 €</a></li>
+                                                    <li><a href="#">Abbonamenti a meno di 50 €</a></li>
+                                                    <li><a href="#">Libri</a></li>
+                                                    <li><a href="#">Offerte in abbinata</a></li>
+                                                    <li><a href="#">Speciale autunno 2017</a></li>
+                                                    <li><a href="#">Speciale design</a></li>
+                                                    <li><a href="#">Top 20 riviste più acquistate</a></li>
+                                                    <li><a href="#">Top 50 riviste più acquistate</a></li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-12 hide-578">
+                                            <div class="border-beige small"></div>
+                                            <div class="w-100 clearfix">
+                                                <div class="float-left">
+                                                    <a href="#"><img src="img/icons/arrow-link.png" alt="">Vedi tutte le riviste</a>
+                                                </div>
+                                                <div class="float-right">
+                                                    <div class="close-dropdown"></div> Chiudi
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="list-inline-item"><a href="#">REGALI</a></li>
+                        <li class="list-inline-item"><a href="#">ABBONAMENTI AZIENDALI</a></li>
+                        <li class="list-inline-item"><a href="#">INTERNATIONAL SUBS.</a></li>
+                    </ul>
+                    <div class="close-dropdown-mobile" onclick="closeMenu()"></div>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <!-- end navbar -->
+    <div class="borders-bottom"></div>
+
+    <div class="container">
+        <nav class="breadcrumb">
+            <a class="breadcrumb-item" href="#">Home</a>
+            <a class="breadcrumb-item" href="#">Riepilogo Ordini</a>
+            <a class="breadcrumb-item" href="#">Login/Dati Personali</a>
+            <a class="breadcrumb-item" href="#">Dati di spedizione</a>
+            <span class="breadcrumb-item"><b>Dati di pagamento</b></span>
+            <span class="breadcrumb-item">Conferma Ordine</span>
+        </nav>
+        <div class="border-beige small"></div>
+        <div class="text-center">
+            <h1>Stai per completare il tuo ordine...</h1>
+        </div>
+        <div class="border-beige small"></div>
+        <form action="#" method="POST">
+            <div class="flexbox">
+                <section class="user-data">
+                    <div class="full-row bg-beige">
+                        <h5>METODO DI PAGAMENTO</h5>
+                        <ul class="list">
+                            <li>
+                                <div class="flexbox flex-radio">
+                                    <div class="item">
+                                        <div class="vertical-align">
+                                            <input class="radio-button" type="radio" name="r1" id="r1" checked />
+                                            <label for="r1"></label>
+                                        </div>
+                                    </div>
+                                    <div class="item-2">
+                                        Carta di credito
+                                    </div>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="flexbox flex-radio">
+                                    <div class="item">
+                                        <div class="vertical-align">
+                                            <input class="radio-button" type="radio" name="r1" id="r2" />
+                                            <label for="r2"></label>
+                                        </div>
+                                    </div>
+                                    <div class="item-2">Carta di credito (con rinnovo automatico)</div>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="flexbox flex-radio">
+                                    <div class="item">
+                                        <div class="vertical-align">
+                                            <input class="radio-button" type="radio" name="r1" id="r3" />
+                                            <label for="r3"></label>
+                                        </div>
+                                    </div>
+                                    <div class="item-2">PayPal</div>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="flexbox flex-radio">
+                                    <div class="item">
+                                        <div class="vertical-align">
+                                            <input class="radio-button" type="radio" name="r1" id="r4" />
+                                            <label for="r4"></label>
+                                        </div>
+                                    </div>
+                                    <div class="item-2">PayPal (con rinnovo automatico)</div>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="flexbox flex-radio">
+                                    <div class="item">
+                                        <div class="vertical-align">
+                                            <input class="radio-button" type="radio" name="r1" id="r5" />
+                                            <label for="r5"></label>
+                                        </div>
+                                    </div>
+                                    <div class="item-2">Sofort - bonifico bancario</div>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="flexbox flex-radio">
+                                    <div class="item">
+                                        <div class="vertical-align">
+                                            <input class="radio-button" type="radio" name="r1" id="r6" />
+                                            <label for="r6"></label>
+                                        </div>
+                                    </div>
+                                    <div class="item-2">
+                                        Satispay
+                                    </div>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="flexbox flex-radio">
+                                    <div class="item">
+                                        <div class="vertical-align">
+                                            <input class="radio-button" type="radio" name="r1" id="r7" />
+                                            <label for="r7"></label>
+                                        </div>
+                                    </div>
+                                    <div class="item-2">Bollettino Postale - unica soluzione</div>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="flexbox flex-radio">
+                                    <div class="item">
+                                        <div class="vertical-align">
+                                            <input class="radio-button" type="radio" name="r1" id="r8" />
+                                            <label for="r8"></label>
+                                        </div>
+                                    </div>
+                                    <div class="item-2">
+                                        Bollettino Postale -  in x rate di pari importo
+                                    </div>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="extra-small">
+                                    L’offerta non prevede la possibilità di fatturazione elettronica per la Pubblica Amministrazione.
+                                    Per maggiori informazioni su come sottoscrivere abbonamenti per la Pubblica Amministrazione, clicca qui.
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="full-row bg-beige promotional-code">
+                        Codice promozionale
+                        <div class="row">
+                            <div class="col-sm-6 padding-right">
+                                <div class="group-form">
+                                    <input type="text" name="" />
+                                </div>
+                            </div>
+                            <div class="col-sm-6">
+                                <button type="button" class="btn btn-primary">AGGIORNA IL TOTALE</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="full-row bg-beige">
+                        <h5 class="m-bottom">PRIVACY</h5>
+                        <div class="text-small">
+                            Garanzia di riservatezza: <a href="#">Leggi l’informativa privacy ex art.13 d.lgs 196/2003</a>
+                            <br><br>
+                            Acconsento a che i dati personali da me volontariamente forniti siano utilizzati da Press-Di<br>
+                            Abbonamenti S.r.l.  per le finalità promozionali specificate al punto 1. dell’informativa.
+                        </div>
+                        <div class="w-100 radio-group">
+                            <label for="r9">
+                                <div class="vertical-align">
+                                    <input class="radio-button" type="radio" name="r2" id="r9" checked />
+                                    <label for="r9"></label>
+                                </div>
+                                <div class="d-inline-block">Sì</div>
+                            </label>
+                            <label for="r10">
+                                <div class="vertical-align">
+                                    <input class="radio-button" type="radio" name="r2" id="r10" />
+                                    <label for="r10"></label>
+                                </div>
+                                <div class="d-inline-block">No</div>
+                            </label>
+                        </div>
+                        <div class="text-small">
+                            Acconsento alla comunicazione dei miei dati personali per le finalità di cui al punto 1. dell’informativa<br>
+                            ai soggetti terzi indicati.
+                        </div>
+                        <div class="w-100 radio-group">
+                            <label for="r11">
+                                <div class="vertical-align">
+                                    <input class="radio-button" type="radio" name="r3" id="r11" checked />
+                                    <label for="r11"></label>
+                                </div>
+                                <div class="d-inline-block">Sì</div>
+                            </label>
+                            <label for="r12">
+                                <div class="vertical-align">
+                                    <input class="radio-button" type="radio" name="r3" id="r12" />
+                                    <label for="r12"></label>
+                                </div>
+                                <div class="d-inline-block">No</div>
+                            </label>
+                        </div>
+                        <div class="text-small">
+                            Acconsento al trattamento dei miei dati personali per finalità di profilazione per migliorare la qualità<br>
+                            dei servizi erogati, come specificato al punto 3 dell’informativa.
+                        </div>
+                         <div class="w-100 radio-group">
+                            <label for="r13">
+                                <div class="vertical-align">
+                                    <input class="radio-button" type="radio" name="r4" id="r13" checked />
+                                    <label for="r13"></label>
+                                </div>
+                                <div class="d-inline-block">Sì</div>
+                            </label>
+                            <label for="r14">
+                                <div class="vertical-align">
+                                    <input class="radio-button" type="radio" name="r4" id="r14" />
+                                    <label for="r14"></label>
+                                </div>
+                                <div class="d-inline-block">No</div>
+                            </label>
+                        </div>
+                    </div>
+                    <div class="full-row bg-beige">
+                        <div class="flexbox flex-radio">
+                            <div class="item">
+                                <input class="checkbox-button" type="checkbox" name="" id="c1" />
+                                <label for="c1" class="vertical-align"></label>
+                            </div>
+                            <div class="item-2">
+                                <div class="text-small d-inline-block">
+                                    Dichiaro di essere maggiorenne e di aver letto e accettato le <a href="#">condizioni d’acquisto.</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="extra-small m-top m-bottom">
+                            Gli articoli 45 e ss. del codice del consumo ti riconoscono diritti di informazione, recesso e nel corso<br>
+                            dell’esecuzione del contratto.
+                        </div>
+                    </div>
+                </section>
+                <aside class="description">
+                    <div class="w-100 head clearfix">
+                        <div class="float-left">
+                            <h5>DESCRIZIONE</h5>
+                        </div>
+                        <div class="float-right">
+                            <h5>PREZZO</h5>
+                        </div>
+                    </div>
+                    <div class="border-beige small"></div>
+                    <ul class="list">
+                        <li>
+                            <div class="flexbox">
+                                <div class="item">
+                                    <h5>Abbonamento a Panorama con titolo più lungo</h5>
+                                    <p>
+                                        Settimanale Mondadori<br>
+                                        (52 numeri)
+                                    </p>
+                                </div>
+                                <div class="item-2">
+                                    <b>€ 42,90</b>
+                                    + 1,20 € come contributo spese di spedizione
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="flexbox">
+                                <div class="item">
+                                    <h5>Panorama + Vogue Italia</h5>
+                                    <p>
+                                        Settimanale Mondadori + mensile Condé Nast<br>
+                                        (52 numeri + 12 numeri)
+                                    </p>
+                                </div>
+                                <div class="item-2">
+                                    <b>€ 42,90</b>
+                                    + 1,20 € come contributo<br>spese di spedizione
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="flexbox">
+                                <div class="item">
+                                    <h5>Focus Junior + Alla Ricerca di un Amico Speciale</h5>
+                                    <p>
+                                        Mensile  Mondadori Scienza<br>
+                                        (12 numeri/1 anno + 1 libro)<br>
+                                        Prodotto venduto da: <span>LABSUS SRL</span>
+                                    </p>
+                                </div>
+                                <div class="item-2">
+                                    <b>€ 42,90</b>
+                                    + 1,20 € come contributo<br>spese di spedizione
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="flexbox">
+                                <div class="item">
+                                    <h5><b>Prezzo totale</b></h5>
+                                </div>
+                                <div class="item-2">
+                                    <b>€ 42,90</b>
+                                    + 2,40 € come contributo<br>spese di spedizione
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                    <div class="w-100">
+                        <img src="img/norton.png" alt="" class="img-fluid" />
+                    </div>
+                </aside>
+            </div>
+            <div class="border-beige small"></div>
+            <div class="form-submit text-center">
+                <a href="#" class="btn btn-beige">TORNA INDIETRO</a>
+                <button class="btn btn-primary">Continua</button>
+            </div>
+        </form>
+    </div>
+
+    <footer class="bg-beige">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3 col-sm-6">
+                    <h6>ABBONAMENTI E PRODOTTI</h6>
+                    <ul class="menu-footer">
+                        <li><a href="#">Riviste</a></li>
+                        <li><a href="#">Riviste digitali</a></li>
+                        <li><a href="#">Prodotti</a></li>
+                        <li><a href="#">Collezioni</a></li>
+                        <li><a href="#">Regali</a></li>
+                        <li><a href="#">Abbonamenti aziendali</a></li>
+                        <li><a href="#">International subs</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-2 col-sm-6">
+                    <h6>Abbonamenti.it</h6>
+                    <ul class="menu-footer">
+                        <li><a href="#">Chi siamo</a></li>
+                        <li><a href="#">Vantaggi</a></li>
+                        <li><a href="#">Domande frequenti</a></li>
+                        <li><a href="#">Condizioni di vendita</a></li>
+                        <li><a href="#">Cookie policy</a></li>
+                        <li><a href="#">Privacy policy</a></li>
+                        <li><a href="#">Contatti</a></li>
+                        <li><a href="#">Mappa del sito</a></li>
+                        <li><a href="#">Credits</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-7 col-sm-12">
+                    <div class="flexbox">
+                        <div class="brand-logo">
+                            <img src="img/brands/cartasi.png" alt="" />
+                        </div>
+                        <div class="brand-logo">
+                            <img src="img/brands/visa.png" alt="" />
+                        </div>
+                        <div class="brand-logo">
+                            <img src="img/brands/master-card.png" alt="" />
+                        </div>
+                        <div class="brand-logo">
+                            <img src="img/brands/american-express.png" alt="" />
+                        </div>
+                        <div class="brand-logo">
+                            <img src="img/brands/d-club.png" alt="" />
+                        </div>
+                        <div class="brand-logo">
+                            <img src="img/brands/postepay.png" alt="" />
+                        </div>
+                        <div class="brand-logo">
+                            <img src="img/brands/paypal.png" alt="" />
+                        </div>
+                        <div class="brand-logo">
+                            <img src="img/brands/sofort.png" alt="" />
+                        </div>
+                    </div>
+                    <div class="border-beige small"></div>
+                    <div class="copyright">
+                        © Press-di Abbonamenti S.p.A 2017 - Press-di Abbonamenti SPA - p.i.: 08696660151<br />
+                        Tutti i diritti di proprietà letteraria e artistica riservati.
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <div id="scroll-top">
+        <button class="btn btn-scroll"><img src="img/icons/arrow-up.png" alt="" /> Inizio Pagina</button>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js"></script>
+    <script src="https://npmcdn.com/tether@1.2.4/dist/js/tether.min.js"></script>
+    <script src="../js/bootstrap.min.js"></script>
+    <script src="../js/OwlCarousel/owl.carousel.min.js"></script>
+    <script src="../js/app.js"></script>
+
+    
+</body>
+</html>

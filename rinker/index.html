@@ -1,0 +1,476 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home - Rinker</title>
+    <link rel="stylesheet" href="bootstrap4/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/animate.css">
+    <link rel="stylesheet" href="js/flipster/jquery.flipster.min.css">
+</head>
+<body class="home">
+  <!-- navbar -->
+  <nav class="navbar fixed-top navbar-toggleable-md navbar-light header">
+    <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-burger-menu"></span>
+    </button>
+    <a class="navbar-brand" href="http://scriptormaster.com/project/rinker/">
+      <img src="images/logo.png" alt="Logo" />
+    </a>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="http://scriptormaster.com/project/rinker/">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="blog.html">Blog</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="gallery.html">Gallery</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="about.html">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="single.html">Contact</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+  <!-- end navbar -->
+
+  <!-- banner -->
+  <div class="banner" style="background-image: url(images/banner.jpg);">
+    <div class="transparent-layer"></div>
+    <div class="container">
+      <h1 class="wow fadeInLeft" data-wow-duration="1.2s">
+        SWAN CLASSIC<br />
+        BY GERMAN FRERS<br />
+        ASSOCIATION
+      </h1>
+      <div class="bg-line"></div>
+      <h2 class="wow fadeInRight" data-wow-delay="0.3s" data-wow-duration="1.2s">
+        Lorem Ipsum is simply dummy<br />
+        text of the printing and typesetting<br />
+        industry. Lorem Ipsum 
+      </h2>
+      <a href="#" class="btn btn-transparent">DETAGLI</a>
+    </div>
+  </div>
+
+  <!-- Our story -->
+  <div class="container text-center">
+    <div class="row wow fadeIn" data-wow-duration="1.4s">
+      <div class="col-md-6 story">
+        <h4>Lorem Ipsum</h4>
+        <div class="line"></div>
+        <p>
+          This is the site of the association that gathers together owners and<br />
+          aficionados of yachts, built by Nautor's Swan and designed<br />
+          by German Frers, created in the 1980s. These boats, representing an<br />
+          important point in the history of pleasure sailing, are still appealing for<br />
+          their aesthetics and proportions as well as continuing<br />
+          to be active in numerous regattas.<br />
+        </p>
+      </div>
+      <div class="col-md-6">
+        <img src="images/boats-picture.jpg" alt="" style="width: 100%;" />
+      </div>
+    </div>
+  </div>
+
+  <!-- 3 icons background -->
+  <div class="background-icons" style="background-image: url(images/background-icon.jpg);">
+    <div class="container text-center">
+      <div class="row">
+        <div class="col-md-4">
+          <div class="box-icon wow bounceInLeft" data-wow-duration="2s">
+            <img class="img-fluid" src="images/icons/anchors-icon.png" alt="Anchor" />
+            <h6>Lorem Ipsum Dolor</h6>
+            <p>Categoria</p>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="box-icon wow bounceInUp" data-wow-duration="2s">
+            <img class="img-fluid" src="images/icons/arrows-icon.png" alt="Arrows" />
+            <h6>Lorem Ipsum Dolor</h6>
+            <p>Categoria</p>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="box-icon wow bounceInRight" data-wow-duration="2s">
+            <img class="img-fluid" src="images/icons/diamond-icon.png" alt="Diamond" />
+            <h6>Lorem Ipsum Dolor</h6>
+            <p>Categoria</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- image gallery section -->
+  <div class="container image-gallery">
+    <div class="row text-center">
+      <div class="col-lg-6 story">
+        <h4>Lorem Ipsum</h4>
+        <div class="bg-line"></div>
+        <h5>WHEN AN UNKNOWN PRINTER TOOK A GALLEY </h5>
+        <p>
+          When an unknown printer took a galley of type and scrambled it to make<br />
+          a type specimen book. It has survived not only five centuries
+        </p>
+      </div>
+      <div class="col-lg-6">
+        <div class="flipster">
+          <ul>
+            <li>
+              <div class="img-box">
+                <img class="w-100" src="images/gallery1.jpg" alt="Gallery 1" />
+              </div>
+            </li>
+            <li>
+              <div class="img-box">
+                <img class="w-100" src="images/gallery1.jpg" alt="Gallery 1" />
+              </div>
+            </li>
+            <li>
+              <div class="img-box">
+                <img class="w-100" src="images/gallery1.jpg" alt="Gallery 1" />
+              </div>
+            </li>
+          </ul>
+        </div>
+        <div class="carousel-arrow-gallery">
+          <button class="arrow-btn" id="flipsterPrev"></button>
+          <button class="arrow-btn right" id="flipsterNext"></button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- 4 icons background -->
+  <div class="background-icons text-icons" style="background-image: url(images/bg-ship.jpg);">
+    <div class="transparent-layer"></div>
+    <div class="container text-center">
+      <div class="row">
+        <div class="col-sm-3 col-6">
+          <div class="big-text wow fadeInUp">217</div>
+          <div class="small-text">Yachts</div>
+        </div>
+        <div class="col-sm-3 col-6">
+          <div class="big-text wow fadeInUp">205</div>
+          <div class="small-text">Sails</div>
+        </div>
+        <div class="col-sm-3 col-6">
+          <div class="big-text wow fadeInUp">236</div>
+          <div class="small-text">Travels</div>
+        </div>
+        <div class="col-sm-3 col-6">
+          <div class="big-text wow fadeInUp">417</div>
+          <div class="small-text">Tourists</div>
+        </div>
+      </div>
+      <div class="bg-line"></div>
+      <div class="descripiton">
+        When an unknown printer took a galley of type and scrambled it to make<br />
+        a type specimen book. It has survived not only five centuries
+      </div>
+    </div>
+  </div>
+
+  <!-- gallery personel -->
+  <div class="container gallery-person">
+    <div id="carouselPerson" class="carousel slide" data-ride="carousel">
+      <div class="carousel-inner" role="listbox">
+        <div class="carousel-item active">
+          <div class="row">
+            <div class="col-md-8">
+              <div class="gallery-name">Luiggi</div>
+              <div class="gallery-title">Architect</div>
+              <p>
+                When an unknown printer took a galley of type and scrambled it to make 
+                a type specimen book. It has survived not only five centuries
+              </p>
+            </div>
+            <div class="col-md-4">
+              <div class="img-box">
+                <img class="w-100" src="images/person.jpg" alt="Person" />
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="row">
+            <div class="col-md-8">
+              <div class="gallery-name">Luiggi</div>
+              <div class="gallery-title">Architect</div>
+              <p>
+                When an unknown printer took a galley of type and scrambled it to make 
+                a type specimen book. It has survived not only five centuries
+              </p>
+            </div>
+            <div class="col-md-4">
+              <div class="img-box">
+                <img class="w-100" src="images/person.jpg" alt="Person" />
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="row">
+            <div class="col-md-8">
+              <div class="gallery-name">Luiggi</div>
+              <div class="gallery-title">Architect</div>
+              <p>
+                When an unknown printer took a galley of type and scrambled it to make 
+                a type specimen book. It has survived not only five centuries
+              </p>
+            </div>
+            <div class="col-md-4">
+              <div class="img-box">
+                <img class="w-100" src="images/person.jpg" alt="Person" />
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-arrow">
+          <button class="arrow-btn" data-target="#carouselPerson" role="button" data-slide="prev"></button>
+          <button class="arrow-btn right" href="#carouselPerson" role="button" data-slide="next"></button>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <!-- info -->
+  <div class="background-info" style="background-image: url(images/boat.jpg);">
+    <div class="container">
+      <div class="box-shadow">
+        <div class="row">
+          <div class="col-md-4 border-right">
+            <img class="img-fluid wow fadeInUp" src="images/icons/icon-wheel.png" />
+          </div>
+          <div class="col-md-8 default wow fadeInUp">
+            <h5>Lorem Ipsum</h5>
+            <h6>Amazing Yacht</h6>
+            <p>
+              Lorem Ipsum is simply dummy<br />
+              text of the printing and typesetting<br /> 
+              industry. Lorem Ipsum 
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- blog -->
+  <div class="blog-section">
+    <div class="container">
+      <h4>Viaggiatori attraverso il mondo</h4>
+      <div class="row">
+        <div class="col-md-6 padding-right wow fadeInUp">
+          <div class="img-box">
+            <img class="w-100" src="images/blog1.jpg" alt="" />
+          </div>
+          <div class="blog-body default">
+            <h5>Lorem Ipsum</h5>
+            <h6>Amazing Yacht</h6>
+            <p>
+              Lorem Ipsum is simply dummy<br />
+              text of the printing and typesetting<br /> 
+              industry. Lorem Ipsum 
+            </p>
+          </div>
+        </div>
+        <div class="col-md-6 padding-left wow fadeInUp">
+          <div class="img-box">
+            <img class="w-100" src="images/blog2.jpg" alt="" />
+          </div>
+          <div class="blog-body default">
+            <h5>Lorem Ipsum</h5>
+            <h6>Amazing Yacht</h6>
+            <p>
+              Lorem Ipsum is simply dummy<br />
+              text of the printing and typesetting<br /> 
+              industry. Lorem Ipsum 
+            </p>
+          </div>
+        </div>
+        <div class="col-md-6 padding-right wow fadeInUp">
+          <div class="img-box">
+            <img class="w-100" src="images/blog1.jpg" alt="" />
+          </div>
+          <div class="blog-body default">
+            <h5>Lorem Ipsum</h5>
+            <h6>Amazing Yacht</h6>
+            <p>
+              Lorem Ipsum is simply dummy<br />
+              text of the printing and typesetting<br /> 
+              industry. Lorem Ipsum 
+            </p>
+          </div>
+        </div>
+        <div class="col-md-6 padding-left wow fadeInUp">
+          <div class="img-box">
+            <img class="w-100" src="images/blog1.jpg" alt="" />
+          </div>
+          <div class="blog-body default">
+            <h5>Lorem Ipsum</h5>
+            <h6>Amazing Yacht</h6>
+            <p>
+              Lorem Ipsum is simply dummy<br />
+              text of the printing and typesetting<br /> 
+              industry. Lorem Ipsum 
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- video background -->
+  <div class="video-background" style="background-image: url(images/video-banner.jpg);">
+    <video muted loop id="videoBg" preload="none" poster="images/video-banner.jpg">
+        <source src="videos/boats.webm" type="video/webm">
+        <source src="videos/boats.mp4" type="video/mp4">
+    </video>
+    <div class="video-controle">
+      <div class="container">
+        <div class="player" id="play">
+          <img class="img-fluid" src="images/icons/play-icon.png" alt="Play video" onclick="vidplay()" />
+        </div>
+        <div class="form-video">
+          <form action="#" method="POST">
+             <input type="email" name="email" placeholder="email" />
+             <button type="submit">Sottoscrivi</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- contact form -->
+  <div class="container contact-form">
+    <div class="row">
+      <div class="col-lg-8 col-md-6 wow fadeInUp">
+        <h6>Contatacci</h6>
+        <form action="#" method="POST">
+          <div class="row padding-right">
+            <div class="col-md-6">
+              <input type="text" name="name" placeholder="Nome" />
+            </div>
+            <div class="col-md-6">
+              <input type="text" name="name" placeholder="Cognome" />
+            </div>
+            <div class="col-md-6">
+              <input type="email" name="email" placeholder="Email" />
+            </div>
+            <div class="col-md-6">
+              <input type="text" name="subject" placeholder="Subject" />
+            </div>
+            <div class="col-md-12">
+              <textarea name="message" placeholder="Message" rows="1"></textarea>
+            </div>
+            <div class="col-md-12 text-center">
+              <button type="submit" class="btn btn-form">Invia</button>
+            </div>
+          </div>
+        </form>
+      </div>
+      <div class="col-lg-4 col-md-6 wow fadeInUp">
+        <div class="img-box">
+          <img class="w-100" src="images/contact-img.jpg" alt="" />
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- google map -->
+  <div id="map"></div>
+
+  <!-- Footer -->
+  <footer>
+    <div class="container">
+      <div class="footer-body">
+        <div class="logo-footer">
+          <a href="#"><img src="images/logo2.png" alt="Logo footer" /></a>
+        </div>
+        <div class="footer-menu">
+          <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Blog</a></li>
+            <li><a href="#">Post</a></li>
+            <li><a href="#">Contact</a></li>
+          </ul>
+        </div>
+        <div class="clearfix"></div>
+      </div>
+      <div class="footer-copyright text-center">
+        Copyright 2017 Sawn
+      </div>
+    </div>
+  </footer>
+
+  <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js"></script>
+  <script src="https://npmcdn.com/tether@1.2.4/dist/js/tether.min.js"></script>
+  <script src="bootstrap4/js/bootstrap.min.js"></script>
+  <script src="js/flipster/jquery.flipster.min.js"></script>
+  <script src="js/wow.min.js"></script>
+
+  <!-- google map -->
+  <script>
+    function initMap() {
+      var italy = {lat: 41.8719, lng: 12.5674};
+      var map = new google.maps.Map(document.getElementById('map'), {
+        zoom: 4,
+        center: italy
+      });
+      var marker = new google.maps.Marker({
+        position: italy,
+        map: map
+      });
+    }
+  </script>
+
+  <script type="text/javascript">
+    function vidplay() {
+       var video = document.getElementById("videoBg");
+       var button = $("#play");
+       if (video.paused) {
+          video.play();
+          button.css("opacity",0);
+       } else {
+          video.pause();
+          button.css("opacity",1);
+       }
+    }
+    $(document).ready(function(){
+        var myFlipster = $('.flipster').flipster({
+          loop: true,
+          style: 'flat',
+        });
+        $("#flipsterPrev").click(function(){
+          myFlipster.flipster('prev');
+        });
+        $("#flipsterNext").click(function(){
+          myFlipster.flipster('next');
+        });
+
+        $(window).bind('scroll', function () {
+          if ($(window).scrollTop() > 70) {
+            $('.navbar').addClass('nav-active');
+          } else {
+            $('.navbar').removeClass('nav-active');
+          }
+        });
+
+        new WOW().init();
+    });
+  </script>
+  <script async defer
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDFOYgZaWcLeNPvGd1MyadW0G91CcwKjDU&callback=initMap">
+  </script>
+</body>
+</html>

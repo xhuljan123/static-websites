@@ -1,0 +1,47 @@
+$dbf: 'DINPro-Bold', sans-serif;
+$dlf: 'DINPro-Light', sans-serif;
+$drf: 'DINPro-Regular', sans-serif;
+$dmf: 'DINPro-Medium', sans-serif;
+$gc: #6aa841;
+$blue: #416eb3;
+
+@font-face {
+  font-family: 'DINPro-Bold';
+  src: url('../fonts/DINPro-Bold/DINPro-Bold.eot?#iefix') format('embedded-opentype'),  
+        url('../fonts/DINPro-Bold/DINPro-Bold.otf')  format('opentype'),
+        url('../fonts/DINPro-Bold/DINPro-Bold.woff') format('woff'), 
+        url('../fonts/DINPro-Bold/DINPro-Bold.ttf')  format('truetype'), 
+        url('../fonts/DINPro-Bold/DINPro-Bold.svg#DINPro-Bold') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'DINPro-Light';
+  src: url('../fonts/DINPro-Light/DINPro-Light.eot?#iefix') format('embedded-opentype'),  
+        url('../fonts/DINPro-Light/DINPro-Light.otf')  format('opentype'),
+        url('../fonts/DINPro-Light/DINPro-Light.woff') format('woff'), 
+        url('../fonts/DINPro-Light/DINPro-Light.ttf')  format('truetype'), 
+        url('../fonts/DINPro-Light/DINPro-Light.svg#DINPro-Light') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'DINPro-Regular';
+  src: url('../fonts/DINPro-Regular/DINPro-Regular.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/DINPro-Regular/DINPro-Regular.otf')  format('opentype'),
+        url('../fonts/DINPro-Regular/DINPro-Regular.woff') format('woff'),
+        url('../fonts/DINPro-Regular/DINPro-Regular.ttf')  format('truetype'),
+        url('../fonts/DINPro-Regular/DINPro-Regular.svg#DINPro-Regular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'DINPro-Medium';
+  src: url('../fonts/DINPro-Medium/DINPro-Medium.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/DINPro-Medium/DINPro-Medium.otf')  format('opentype'),
+        url('../fonts/DINPro-Medium/DINPro-Medium.woff') format('woff'),
+        url('../fonts/DINPro-Medium/DINPro-Medium.ttf')  format('truetype'),
+        url('../fonts/DINPro-Medium/DINPro-Medium.svg#DINPro-Medium') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}

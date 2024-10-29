@@ -1,0 +1,29 @@
+$mf: 'Myriad Pro', sans-serif;
+$hf: 'Helvetica', sans-serif;
+$gold: #baaa67;
+$grey: #5d5d5d;
+$black: #19213a;
+
+@font-face {
+    font-family: 'Myriad Pro';
+    src: url('../fonts/myryadPro/MyriadPro-Regular.eot');
+    src: url('../fonts/myryadPro/MyriadPro-Regular.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/myryadPro/MyriadPro-Regular.woff2') format('woff2'),
+        url('../fonts/myryadPro/MyriadPro-Regular.woff') format('woff'),
+        url('../fonts/myryadPro/MyriadPro-Regular.ttf') format('truetype'),
+        url('../fonts/myryadPro/MyriadPro-Regular.svg#MyriadPro-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Helvetica';
+    src: url('../fonts/helvetica/Helvetica.eot');
+    src: url('../fonts/helvetica/Helvetica.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/helvetica/Helvetica.woff2') format('woff2'),
+        url('../fonts/helvetica/Helvetica.woff') format('woff'),
+        url('../fonts/helvetica/Helvetica.ttf') format('truetype'),
+        url('../fonts/helvetica/Helvetica.svg#Helvetica') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}

@@ -1,0 +1,45 @@
+footer {
+	position: relative;
+	display: block;
+	width: 100%;
+	color: #8c8a85;
+	padding: 30px 0 130px;
+	font-size: 14px;
+	h6 {
+		font-size: 14px;
+		color: $blue;
+		font-weight: bold;
+		margin-bottom: 23px;
+	}
+	.menu-footer {
+		display: block;
+		margin: 0;
+		padding: 0;
+		list-style: none;
+		line-height: 1;
+		li {
+			margin-bottom: 10px;
+			a {
+				color: $blue;
+			}
+		}
+	}
+	.flexbox {
+		justify-content: flex-start;
+		align-items: center;
+		margin-bottom: 15px;
+		padding-top: 0;
+	}
+	.brand-logo {
+		display: block;
+		margin-bottom: 10px;
+	}
+	.brand-logo:not(:last-child) {
+		margin-right: 10px;
+	}
+	.copyright {
+		margin-top: 15px;
+		font-size: 12px;
+		line-height: 1.3;
+	}
+}
